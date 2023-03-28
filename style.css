@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    position: absolute;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 50px 0 20px;
+}
+
+.menu_botao ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+
+.img_abertura{
+    width: 100%;
+}
+
+.menu_botao ul a{
+    padding: 8px 26px;
+    border-radius: 34px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu_botao ul a:hover{
+    background: #60c7fa;
+}
+
+.abertura{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
