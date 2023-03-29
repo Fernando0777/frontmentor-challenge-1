@@ -26,20 +26,170 @@
     width: 100%;
 }
 
-.menu_botao ul a{
+.botao_topo{
     padding: 8px 26px;
     border-radius: 33px;
     color: #fff;
     text-decoration: none;
+    font-family: "Roboto";
+}
+
+.botao_contato{
+    background-color: #fff;
+    text-transform: uppercase;
+    color: black;
+    padding: 8px 26px;
+    border-radius: 33px;
+    text-decoration: none;
+    font-family: "Alkatra";
 }
 
 .menu_botao ul a:hover{
-    background: #60c7fa;
+    background: #a1defc;
 }
 
 .abertura{
     width: 100%;
     margin: 0 auto;
+}
+
+.titulo{
+    font-family: "Fraunces";
+    color: #fff;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 90px;
+}
+
+.sessao2{
+    display: flex;
+}
+
+.txt_sessao{
+    width: 100%;
+}
+
+.titulo_sessao{
+    font-family: "Alkatra";
+    font-size: 40px;
+    margin: 0 auto;
+    margin-top: 176px;
+    align-items: center;
+    max-width: 409px;
+}
+
+.txt_sessao_p{
+    font-family: "Roboto";
+    color: #595959;
+    max-width: 409px;
+    align-items: center;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+.img_sessao{
+    width: 100%;
+}
+
+.imagem_ovo{
+    width: 100%;
+}
+
+.botao_sessao{
+    max-width: 409px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-family: "Alkatra";
+    text-transform: uppercase;
+}
+
+.link_sessao{
+    margin: 0 auto;
+    max-width: 409px;
+}
+
+.detalhe_link_amarelo{
+    display: block;
+    width: 26%;
+    background: #f8f695;
+    height: 8px;
+    margin-top: -7px;
+    margin-left: -7px;
+    border-radius: 10%;
+}
+
+.link_sessao:hover .detalhe_link_amarelo{
+    background: #e7e703;
+}
+
+.sessao3{
+    display: flex;
+    width: 100%;
+}
+
+.imagem_taca{
+    width: 100%;
+}
+
+.detalhe_link_vermelho{
+    display: block;
+    width: 26%;
+    background: #ffb2ab;
+    height: 8px;
+    margin-top: -7px;
+    margin-left: -7px;
+    border-radius: 10%;
+}
+
+.link_sessao:hover .detalhe_link_vermelho{
+    background: #ff7c70;
+}
+
+.sessao4{
+    display: flex;
+    width: 100%;
+}
+
+.sessao4_1{
+    width: 100%;
+}
+
+.sessao4_2{
+    width: 100%;
+}
+
+.txt_sessao4{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-left: 166px;
+}
+
+.titulo_sessao4{
+    font-family: "Alkatra";
+    font-size: 40px;
+    margin-top: 351px;
+    align-items: center;
+    max-width: 409px;
+}
+
+.txt_sessao_p4{
+    font-family: "Roboto";
+    color: #595959;
+    max-width: 409px;
+    align-items: center;
+    line-height: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+.img_sessao4_1{
+    width: 100%;
 }
 
 
