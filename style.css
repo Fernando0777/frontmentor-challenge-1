@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.corpo{
+    max-width: 100vw;
+}
+
 .topo{
     position: absolute;
     width: 100%;
@@ -59,6 +63,11 @@
     text-align: center;
     margin-top: 130px;
     font-size: 90px;
+}
+
+.box_seta{
+    text-align: center;
+    margin-top: 110px;
 }
 
 .sessao2{
@@ -156,41 +165,105 @@
 
 .sessao4_1{
     width: 100%;
+    position: relative;
 }
 
 .sessao4_2{
     width: 100%;
+    position: relative;
 }
 
 .txt_sessao4{
     width: 100%;
     position: absolute;
     text-align: center;
-    margin-left: 166px;
+    display: flex;
+    flex-direction: column;
+    bottom: 90px;
+    align-items: center;
 }
 
 .titulo_sessao4{
     font-family: "Alkatra";
     font-size: 40px;
-    margin-top: 351px;
-    align-items: center;
-    max-width: 409px;
+    align-items: center; 
 }
 
 .txt_sessao_p4{
     font-family: "Roboto";
     color: #595959;
-    max-width: 409px;
-    align-items: center;
     line-height: 30px;
-    padding-top: 70px;
-    padding-bottom: 70px;
     font-size: 20px;
+    max-width: 450px;
+    margin-top: 40px;
 }
 
 .img_sessao4_1{
     width: 100%;
 }
+
+.testemunhos{
+    text-align: center;
+}
+
+.cliente_titulo{
+    font-family: 'Alkatra';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #b4b2b2;
+    letter-spacing: 8px;
+    margin-top: 145px;
+}
+
+.cliente{
+    max-width: 260px;
+}
+
+.cliente_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.foto_cliente{
+    border-radius: 80px;
+    width: 60px;
+}
+
+.cliente_txt{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #2c2a2a;
+    line-height: 24px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.cliente_nome{
+    font-family: 'Fraunces';
+    font-size: 15px
+}
+
+.cliente_prof{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #8f8c8c;
+    padding-top: 12px;
+    padding-bottom: 70px;
+}
+
+.img_container{
+    width: 100%;
+    display: flex;
+}
+
+.img_sessao5{
+    max-width: 25%;
+    width: 100%;
+    height: auto;
+}
+
 
 
 
