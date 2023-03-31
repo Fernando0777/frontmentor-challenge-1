@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.menu_hamb{
+    cursor: pointer;
+
+}
+
 .menu{
     display: flex;
     width: 100%;
@@ -50,6 +55,7 @@
 
 .menu_botao ul a:hover{
     background: #a1defc;
+    color: #fff;
 }
 
 .abertura{
@@ -76,26 +82,29 @@
 
 .txt_sessao{
     width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box_sessao{
+    width: 100%;
+    max-width: 520px;
+    margin: 65px 5px 0 75px;
 }
 
 .titulo_sessao{
     font-family: "Alkatra";
     font-size: 40px;
-    margin: 0 auto;
-    margin-top: 176px;
     align-items: center;
-    max-width: 409px;
+    margin-bottom: 60px;
 }
 
 .txt_sessao_p{
     font-family: "Roboto";
     color: #595959;
-    max-width: 409px;
     align-items: center;
     line-height: 30px;
-    margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
     font-size: 20px;
 }
 
@@ -117,13 +126,12 @@
 }
 
 .link_sessao{
-    margin: 0 auto;
-    max-width: 409px;
+    margin-top: 50px;
 }
 
 .detalhe_link_amarelo{
     display: block;
-    width: 26%;
+    width: 103px;
     background: #f8f695;
     height: 8px;
     margin-top: -7px;
@@ -146,7 +154,7 @@
 
 .detalhe_link_vermelho{
     display: block;
-    width: 26%;
+    width: 103px;
     background: #ffb2ab;
     height: 8px;
     margin-top: -7px;
@@ -179,7 +187,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    bottom: 90px;
+    bottom: 24px;
     align-items: center;
 }
 
@@ -264,6 +272,54 @@
     height: auto;
 }
 
+.rodape{
+    background-color: rgb(189, 249, 189);
+    text-align: center;
+}
+
+.logo_footer{
+    filter: drop-shadow(2px 4px 6px #2c7566);
+}
+
+.box_links{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logo_footer{
+    margin-top: 40px;
+}
+
+.box_botao_footer{
+    display: flex;
+}
+
+.botao_footer{
+    margin: 25px;
+    font-family: 'Roboto';
+    color: #2c7566;
+    font-size: 15px;
+}
+
+.botao_footer:hover{
+    color: #cccccc;
+}
+
+.social_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+.rede_social{
+    margin-right: 15px;
+}
+
+.rede_social:hover{
+    filter: drop-shadow(2px 4px 6px #2c7566);
+}
 
 
 

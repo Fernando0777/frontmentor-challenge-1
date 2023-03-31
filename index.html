@@ -8,8 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Fraunces:wght@800&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsivo.css">
   
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <title>Projeto-1</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -24,6 +25,9 @@
       <div class="topo">
         <div class="menu">
           <img src="./images/logo.svg" class="img_logo" alt="Logo-marca">
+          <div class="menu_hamb">
+            <img src="./images/icon-hamburger.svg" class="hamb" alt="">
+          </div>
           <nav class="menu_botao">
             <ul>
               <li><a href="#" class="botao_topo">About</a></li>
@@ -49,7 +53,7 @@
 
     <section class="sessao2">
       <div class="txt_sessao">
-        <div class="teste">
+        <div class="box_sessao">
           <h2 class="titulo_sessao">Transform your</br> brand</h2>
           <p class="txt_sessao_p">We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -69,11 +73,13 @@
         <img src="./images/desktop/image-stand-out.jpg" class="imagem_taca" alt="imagem de uma taça">
       </div>
       <div class="txt_sessao">
-        <h2 class="titulo_sessao">Stand out to the right audience</h2>
-        <p class="txt_sessao_p">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-        <div class="link_sessao">
-          <a href="#" class="botao_sessao">Learn more</a>
-          <span class="detalhe_link_vermelho"></span>
+        <div class="box_sessao">
+          <h2 class="titulo_sessao">Stand out to the right audience</h2>
+          <p class="txt_sessao_p">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <div class="link_sessao">
+            <a href="#" class="botao_sessao">Learn more</a>
+            <span class="detalhe_link_vermelho"></span>
+          </div>
         </div>
       </div>
     </section>
@@ -135,15 +141,54 @@
       </div>
     </section>
 
-    About
-    Services
-    Projects
-    Contact
+    <footer>
+      <div class="rodape">
+        <img src="./images/logo.svg" class="logo_footer" alt="imagem do logo">
+        <div class="box_links">
+          <div class="rodape_links">
+            <nav>
+              <ul class="box_botao_footer">
+                <li><a href="#" class="botao_footer">About</a></li>
+                <li><a href="#" class="botao_footer">Services</a></li>
+                <li><a href="#" class="botao_footer">Projects</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="rodape_sociais">
+          <nav>
+            <ul class="social_footer">
+              <li>
+                <a href="#" target="_blank">
+                  <img src="./images/icon-facebook.svg" class="rede_social" alt="ícone do Facebook">
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <img src="./images/icon-instagram.svg" class="rede_social" alt="ícone do instagram">
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <img src="./images/icon-twitter.svg" class="rede_social" alt="ícone do twitter">
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <img src="./images/icon-pinterest.svg" class="rede_social" alt="ícone do pinterest">
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
 
-    <div class="attribution">
+
+    <!--<div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div>-->
   </main>
 </body>
 </html>
