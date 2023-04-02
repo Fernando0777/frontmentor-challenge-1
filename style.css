@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.link_topo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    background: #0281c1;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 100;
+}
+
 .corpo{
     max-width: 100vw;
 }
@@ -14,7 +29,48 @@
 
 .menu_hamb{
     cursor: pointer;
+    position: absolute;
+    right: 40px;
+    display: none;
+}
 
+.overlay{
+    position: absolute;
+    width: 0%;
+    height: 60%;
+    background-color: #63cbff;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.botoes_hamb{
+    width: 100%;
+    position: relative;
+    top: 12%;
+    text-align: center; 
+}
+
+.botoes_hamb a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #595959;
+    font-size: 20px;
+    transition: 0.3s
+}
+
+.botoes_hamb a:hover{
+    filter: drop-shadow(2px 4px 6px #180176);
+}
+
+.closebtn{
+    position: absolute;
+    font-size: 40px;
+    right: 30px;
+    color: #000;
 }
 
 .menu{
@@ -33,6 +89,10 @@
 
 .img_abertura{
     width: 100%;
+}
+
+.img_abertura_cel{
+    display: none;
 }
 
 .botao_topo{
@@ -116,6 +176,10 @@
     width: 100%;
 }
 
+.imagem_ovo_cel{
+    display: none;
+}
+
 .botao_sessao{
     max-width: 409px;
     margin: 0 auto;
@@ -150,6 +214,10 @@
 
 .imagem_taca{
     width: 100%;
+}
+
+.imagem_taca_cel{
+    display: none;
 }
 
 .detalhe_link_vermelho{
@@ -208,6 +276,10 @@
 
 .img_sessao4_1{
     width: 100%;
+}
+
+.img_sessao4_1_mobile{
+    display: none;
 }
 
 .testemunhos{
@@ -270,6 +342,10 @@
     max-width: 25%;
     width: 100%;
     height: auto;
+}
+
+.img_mobile{
+    display: none;
 }
 
 .rodape{

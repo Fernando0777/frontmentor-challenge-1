@@ -11,7 +11,7 @@
         font-size: 70px;
     }
     .box_seta{
-        margin-top: 80;
+        margin-top: 80px;
     }
 }
 
@@ -58,5 +58,162 @@
 }
 
 @media (max-width: 750px){
+    .img_abertura{
+        display: none;
+    }
 
+    .img_abertura_cel{
+        display: block;
+        width: 100%;
+    }
+
+    .menu_botao{
+        display: none;
+    }
+
+    .menu_hamb{
+        display: block;
+    }
+
+    .titulo{
+        margin-top: 30%;
+        font-size: 350%;
+    }
+
+    .box_seta{
+        margin-top: 230px;
+    }
+
+    .seta{
+        width: 50px;
+    }
+
+    .sessao2{
+        display: block;
+    }
+
+    .txt_sessao{
+        height: 460px;
+        align-items: center;
+    }
+
+    .box_sessao{
+        margin: 15px 30px 0 30px;
+    }
+
+    .imagem_ovo{
+        display: none;
+    }
+
+    .imagem_ovo_cel{
+        display: block;
+        width: 100%;
+    }
+
+    .sessao3{
+        display: block;
+    }
+
+    .imagem_taca{
+        display: none;
+    }
+
+    .imagem_taca_cel{
+        display: block;
+        width: 100%;
+    }
+
+    .sessao4{
+        display: block;
+    }
+
+    .img_sessao4_1{
+        display: none;
+    }
+
+    .img_sessao4_1_mobile{
+        display: block;
+        width: 100%;
+    }
+
+    .txt_sessao4{
+        bottom: 10px;
+    }
+
+    .txt_sessao_p4{
+        margin: 5px 20px 0px 20px;
+    }
+
+    .cliente_container{
+        display: block;
+        width: 100%;
+    }
+
+    .cliente{
+        max-width: 100%;
+        margin: 5px 30px 5px 30px;
+    }
+
+    .img_container{
+        display: none;
+    }
+
+    .img_mobile{
+        display: block;
+        width: 100%;
+    }
+
+    .img_fila1{
+        display: flex;
+    }
+
+    .img_fila2{
+        display: flex;
+    }
+
+    .img_sessao5_mobile{
+        width: 50%;
+    }
+}
+
+@media(max-width: 650px){
+    .box_seta{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 510px){
+    .box_seta{
+        margin-top: 100px;
+    }
+
+    .seta{
+        width: 35px;
+    }
+}
+
+@media(max-width: 468px){
+    .titulo{
+        font-size: 220%;
+    }
+}
+
+@media(max-width:390px){
+    .box_seta{
+        margin-top: 60px;
+    }
+
+    .seta{
+        width: 23px;
+    }
+}
+
+@media(max-width: 330px){
+    .titulo{
+        font-size: 170%;
+    }
+
+    .box_seta{
+        margin-top: 30px;
+    }
 }

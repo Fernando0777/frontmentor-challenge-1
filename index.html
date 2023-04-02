@@ -25,15 +25,26 @@
       <div class="topo">
         <div class="menu">
           <img src="./images/logo.svg" class="img_logo" alt="Logo-marca">
-          <div class="menu_hamb">
-            <img src="./images/icon-hamburger.svg" class="hamb" alt="">
+          <div id="myNav" class="overlay">
+            <a href="#" class="closebtn" onclick="fechaMenu()">&times;</a>
+          
+          <div class="botoes_hamb">
+            <a href="#sobre">About</a>
+            <a href="#servicos">Services</a>
+            <a href="#clientes">Clients</a>
+            <a href="#contato">CONTACT</a>
           </div>
+        </div>
+          <div class="menu_hamb">
+            <img src="./images/icon-hamburger.svg" class="hamb" alt="botao de menu" onclick="abreMenu()">
+          </div>
+          
           <nav class="menu_botao">
             <ul>
-              <li><a href="#" class="botao_topo">About</a></li>
-              <li><a href="#" class="botao_topo">Services</a></li>
-              <li><a href="#" class="botao_topo">Projetcs</a></li>
-              <li><a href="#" class="botao_contato">Contact</a></li>
+              <li><a href="#sobre" class="botao_topo">About</a></li>
+              <li><a href="#servicos" class="botao_topo">Services</a></li>
+              <li><a href="#clientes" class="botao_topo">Clients</a></li>
+              <li><a href="#contato" class="botao_contato">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -46,12 +57,14 @@
       </div>
       <div class="img_header">
         <img src="./images/desktop/image-header.jpg" class="img_abertura" alt="Laranja cortada">
+        <img src="./images/mobile/image-header.jpg" class="img_abertura_cel" alt="Laranja cortada">
         
       </div>
     </section>
 
 
-    <section class="sessao2">
+    <section class="sessao2" id="sobre">
+      <img src="./images/mobile/image-transform.jpg" class="imagem_ovo_cel" alt="imagem de um ovo">
       <div class="txt_sessao">
         <div class="box_sessao">
           <h2 class="titulo_sessao">Transform your</br> brand</h2>
@@ -66,11 +79,13 @@
       <div class="img_sessao">
         <img src="./images/desktop/image-transform.jpg" class="imagem_ovo" alt="imagem de um ovo">
       </div> 
+      <a href="#" class="link_topo">&#9650;</a>
     </section>
 
-    <section class="sessao3">
+    <section class="sessao3" id="servicos">
       <div class="img_sessao">
         <img src="./images/desktop/image-stand-out.jpg" class="imagem_taca" alt="imagem de uma taça">
+        <img src="./images/mobile/image-stand-out.jpg" class="imagem_taca_cel" alt="imagem de uma taça">
       </div>
       <div class="txt_sessao">
         <div class="box_sessao">
@@ -92,6 +107,7 @@
           <p class="txt_sessao_p4">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
         </div>
         <img src="./images/desktop/image-graphic-design.jpg" class="img_sessao4_1" alt="imagem de cereja">
+        <img src="./images/mobile/image-graphic-design.jpg" class="img_sessao4_1_mobile" alt="imagem de cereja">
       </div>
       <div class="sessao4_2">
         <div class="txt_sessao4">
@@ -99,10 +115,11 @@
           <p class="txt_sessao_p4">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </div>
         <img src="./images/desktop/image-photography.jpg" class="img_sessao4_1" alt="imagem de uma mexirica">
+        <img src="./images/mobile/image-photography.jpg" class="img_sessao4_1_mobile" alt="imagem de uma mexirica">
       </div>
     </section>
 
-    <section class="testemunhos">
+    <section class="testemunhos" id="clientes">
 
       <h2 class="cliente_titulo">Client testimonials</h2>
 
@@ -132,17 +149,27 @@
 
     </section>
 
-    <section class="sessao5">
+    <section class="sessao5" >
       <div class="img_container">
         <img src="./images/desktop/image-gallery-milkbottles.jpg" class="img_sessao5" alt="imagem de litros de leite">
         <img src="./images/desktop/image-gallery-orange.jpg" class="img_sessao5" alt="imagem de uma laranja">
         <img src="./images/desktop/image-gallery-cone.jpg" class="img_sessao5" alt="imagem de um cone">
         <img src="./images/desktop/image-gallery-sugarcubes.jpg" class="img_sessao5" alt="imagem de cubos">
       </div>
+      <div class="img_mobile">
+        <div class="img_fila1">
+          <img src="./images/mobile/image-gallery-milkbottles.jpg" class="img_sessao5_mobile" alt="imagem de litros de leite">
+          <img src="./images/mobile/image-gallery-orange.jpg" class="img_sessao5_mobile alt="imagem de uma laranja">
+        </div>
+        <div class="img_fila2">
+          <img src="./images/mobile/image-gallery-cone.jpg" class="img_sessao5_mobile alt="imagem de um cone">
+          <img src="./images/mobile/image-gallery-sugar-cubes.jpg" class="img_sessao5_mobile alt="imagem de cubos">
+        </div>
+      </div>
     </section>
 
     <footer>
-      <div class="rodape">
+      <div class="rodape" id="contato">
         <img src="./images/logo.svg" class="logo_footer" alt="imagem do logo">
         <div class="box_links">
           <div class="rodape_links">
@@ -190,5 +217,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </div>-->
   </main>
+  <script src="./main.js"></script>
 </body>
 </html>
